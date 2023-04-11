@@ -1,0 +1,111 @@
+
+body{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    position:fixed;
+    top:0px;
+    width:100%;
+    height:50px;
+    background-color:white;
+    color:black;
+    text-align:right;
+    margin-right: 10px;
+    
+}
+
+.header a{
+    margin-right: 10px;
+    
+}
+
+.img-menu{
+    width:40px;
+    border-radius: 25px;
+    position:relative;
+    top:8px;
+}
+
+main{
+    
+    max-width:700px;
+    min-width: 400px;
+    margin:0 auto;
+    margin-top: 50px;
+    height:820px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+}
+
+
+
+#logo{
+    min-width:180px;
+    max-width:350px;
+    height:auto;
+    margin-bottom: 5px;
+}
+
+#input-search{
+    width:400px;
+    height:35px;
+    padding:5px;
+    border-radius: 20px;
+    margin-bottom:20px;
+    border:1px solid white;
+    box-shadow: 2px 2px 5px black;
+    
+}
+
+#search{
+    border-radius: 5px;
+    padding:10px;
+    border:0px;
+}
+
+#lucky{
+    border-radius: 5px;
+    padding:10px;
+    border:0px;
+}
+
+#input-search:hover{
+    box-shadow: 5px 5px 10px grey;
+}
+
+#search:hover{
+    box-shadow: 3px 3px 5px grey;
+}
+
+#lucky:hover{
+    box-shadow: 3px 3px 5px grey;
+}
+
+footer{
+    width: 80%;
+    height: auto;
+    margin-top:10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.enlaces{
+    width:80px;
+    height:80px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.enlaces a{
+    display: block;
+    margin-bottom:5px;
+}
+
+.enlaces:hover{
+    background-color:lightgray;
+}
